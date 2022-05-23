@@ -14,7 +14,7 @@ spec:
       containers:
       - name: chat
         imagePullPolicy: IfNotPresent
-        image: chat:latest
+        image: docker.io/oussamaayadi/chatapi:latest
         ports:
           - containerPort: 3000
 ---

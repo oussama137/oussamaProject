@@ -14,7 +14,7 @@ spec:
       containers:
       - name: auth
         imagePullPolicy: IfNotPresent
-        image: auth:latest
+        image: docker.io/oussamaayadi/authapi:latest
         ports:
           - containerPort: 3000
 ---
